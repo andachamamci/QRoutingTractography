@@ -20,9 +20,9 @@ nbh_pdf was calculated using the create_graph function of CATractography code.
 create_graph function calculates the ODF in 26 directions in 3D, then scale maximum to 1 and 
 takes the average for opposite directions to assure the symmetry. 
 '''
-DWIFILE_NAME = '../IronTrackChallenge/hcpl_graph.npz'
+GRAPHFILE_NAME = 'hcpl_graph.npz'
 
-hcpl_graph=np.load(DWIFILE_NAME)
+hcpl_graph=np.load(GRAPHFILE_NAME)
 nbh_pdf=hcpl_graph['nbh_pdf']
 nbh=hcpl_graph['nbh']
 
