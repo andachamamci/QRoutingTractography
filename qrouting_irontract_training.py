@@ -3,9 +3,9 @@
 The training code for Q-routing tractography method.
 Setting the rewards based on fODF (the costs as in shortest-paths method),
 calculates the q-value for each action (moving in a direction).
-This code is used to produce the results that are submiited to 
+This code is used to produce the results that are submitted to 
 the 2nd round of the Iron Tract Challenge by team 13.
-Andaç Hamamcı, Mert Yıldız
+Andac Hamamci, Mert Yildiz
 Medical Imaging Lab., Yeditepe Univ.
 andac.hamamci@yeditepe.edu.tr
 https://imagingyeditepe.github.io/
@@ -28,8 +28,8 @@ nbh=hcpl_graph['nbh']
 
 '''
 Set the costs (R). Instead of maximizing the rewards in Q-learning framework, 
-we try to find the paths which minimizes the costs. 
-This is refered as Q-routing in the literature.
+we try to find the paths which minimize the costs. 
+This is refered as Q-routing method.
 We set the costs as -ln(ODF) as in shortest-paths methods. 
 So that minimizing the sum is maximizing the product of ODF's. 
 '''
