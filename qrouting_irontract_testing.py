@@ -6,7 +6,7 @@ Probabilistic streamline tractography is performed on Q-values,
 instead of fODF.
 This code is used to produce the results that are submiited to 
 the 2nd round of the Iron Tract Challenge by team 13.
-Andaç Hamamcı, Mert Yıldız
+Andac Hamamci, Mert Yildiz
 Medical Imaging Lab., Yeditepe Univ.
 andac.hamamci@yeditepe.edu.tr
 https://imagingyeditepe.github.io/
